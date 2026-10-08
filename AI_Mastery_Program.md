@@ -35,7 +35,7 @@
 
 ## 2. Day 0 — Setup checklist (~1h, one-time)
 
-- [ ] Install **Python 3.11+** and **VSCodium** (vscodium.com — open-source build of VS Code, no Microsoft telemetry/branding). Add the Python + Jupyter extensions from **Open VSX** (open-vsx.org, the open-source extension marketplace VSCodium uses instead of the MS Marketplace)
+- [x] Install **Python 3.11+** and **VSCodium** (vscodium.com — open-source build of VS Code, no Microsoft telemetry/branding). Add the Python + Jupyter extensions from **Open VSX** (open-vsx.org, the open-source extension marketplace VSCodium uses instead of the MS Marketplace)
 - [ ] In your existing `coding-projects` repo (already on your Desktop), create a new folder `ai-mastery-journey/` with a `README.md` as the index for this whole program — this is where all weekly work will live (no new repo)
 - [ ] Create a **Google Colab** account (free GPU — colab.research.google.com)
 - [ ] Create a **Kaggle** account (kaggle.com) — free notebooks + datasets + competitions

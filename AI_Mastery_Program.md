@@ -36,13 +36,13 @@
 ## 2. Day 0 — Setup checklist (~1h, one-time)
 
 - [x] Install **Python 3.11+** and **VSCodium** (vscodium.com — open-source build of VS Code, no Microsoft telemetry/branding). Add the Python + Jupyter extensions from **Open VSX** (open-vsx.org, the open-source extension marketplace VSCodium uses instead of the MS Marketplace)
-- [ ] In your existing `coding-projects` repo (already on your Desktop), create a new folder `ai-mastery-journey/` with a `README.md` as the index for this whole program — this is where all weekly work will live (no new repo)
-- [ ] Create a **Google Colab** account (free GPU — colab.research.google.com)
-- [ ] Create a **Kaggle** account (kaggle.com) — free notebooks + datasets + competitions
-- [ ] Create a **Hugging Face** account (huggingface.co) — models, datasets, free Spaces hosting
+- [x] In your existing `coding-projects` repo (already on your Desktop), create a new folder `ai-mastery-journey/` with a `README.md` as the index for this whole program — this is where all weekly work will live (no new repo)
+- [x] Create a **Google Colab** account (free GPU — colab.research.google.com)
+- [x] Create a **Kaggle** account (kaggle.com) — free notebooks + datasets + competitions
+- [x] Create a **Hugging Face** account (huggingface.co) — models, datasets, free Spaces hosting
 - [ ] Get an **OpenAI API key** (platform.openai.com — pay-as-you-go, a few $ lasts the whole program) *and/or* an **Anthropic API key** (console.anthropic.com). Set a $5–10 hard spending cap.
-- [ ] Install core libraries: `pip install numpy pandas scikit-learn matplotlib jupyter openai anthropic`
-- [ ] 20-min read: *"AI landscape 2026 in plain English"* — ask ChatGPT/Claude directly: **"Explain the current AI landscape (ML vs DL vs LLMs vs agents) to an engineer-economist in 10 minutes, with a diagram in text."** (This doubles as your first real prompting exercise.)
+- [x] Install core libraries: `pip install numpy pandas scikit-learn matplotlib jupyter openai anthropic`
+- [x] 20-min read: *"AI landscape 2026 in plain English"* — ask ChatGPT/Claude directly: **"Explain the current AI landscape (ML vs DL vs LLMs vs agents) to an engineer-economist in 10 minutes, with a diagram in text."** (This doubles as your first real prompting exercise.)
 
 ---
 

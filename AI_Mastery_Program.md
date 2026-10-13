@@ -57,35 +57,35 @@
 - Andrew Ng, *Machine Learning Specialization* (Coursera — audit for free)
 
 ### Week 1 — Python for data/AI + ML vocabulary
-- Mon: Numpy/Pandas refresher (you know Python already — speed-run Kaggle "Pandas" micro-course, ch.1-3)
-- Tue: Pandas micro-course ch.4-6
-- Wed: Kaggle "Intro to Machine Learning" ch.1-3 (what is a model, train/test split, decision trees)
-- Thu: Kaggle "Intro to Machine Learning" ch.4-7 (underfitting/overfitting, random forests)
-- Fri (hands-on): Finish the course's mini exercise, submit your first prediction to the Kaggle "Housing Prices" getting-started competition
-- Weekend (optional): Explore the dataset yourself, try improving your score
+- [x] Mon: Numpy/Pandas refresher (you know Python already — speed-run Kaggle "Pandas" micro-course, ch.1-3)
+- [x] Tue: Pandas micro-course ch.4-6
+- [x] Wed: Kaggle "Intro to Machine Learning" ch.1-3 (what is a model, train/test split, decision trees)
+- [x] Thu: Kaggle "Intro to Machine Learning" ch.4-7 (underfitting/overfitting, random forests)
+- [x] Fri (hands-on): Finish the course's mini exercise, submit your first prediction to the Kaggle "Housing Prices" getting-started competition
+- [ ] Weekend (optional): Explore the dataset yourself, try improving your score
 
 ### Week 2 — Supervised learning, deeper
-- Mon: Regression vs classification, metrics (MSE, accuracy, precision/recall, ROC-AUC) — Google Crash Course modules
-- Tue: scikit-learn in practice: `train_test_split`, `Pipeline`, `cross_val_score`
-- Wed: Kaggle "Intermediate Machine Learning" ch.1-3 (missing values, categorical variables)
-- Thu: Kaggle "Intermediate Machine Learning" ch.4-6 (pipelines, cross-validation, XGBoost)
-- Fri (hands-on): Join the **Titanic** competition (kaggle.com/competitions/titanic), build your own pipeline end-to-end
-- Weekend (optional): Try XGBoost, compare to your first model, write 5 lines on what changed your score
+- [ ] Mon: Regression vs classification, metrics (MSE, accuracy, precision/recall, ROC-AUC) — Google Crash Course modules
+- [ ] Tue: scikit-learn in practice: `train_test_split`, `Pipeline`, `cross_val_score`
+- [ ] Wed: Kaggle "Intermediate Machine Learning" ch.1-3 (missing values, categorical variables)
+- [ ] Thu: Kaggle "Intermediate Machine Learning" ch.4-6 (pipelines, cross-validation, XGBoost)
+- [ ] Fri (hands-on): Join the **Titanic** competition (kaggle.com/competitions/titanic), build your own pipeline end-to-end
+- [ ] Weekend (optional): Try XGBoost, compare to your first model, write 5 lines on what changed your score
 
 ### Week 3 — From ML to Neural Networks (intuition)
-- Mon: 3Blue1Brown ep.1 — "But what is a neural network?"
-- Tue: 3Blue1Brown ep.2-3 — gradient descent & backpropagation (intuition only, you have the calculus already)
-- Wed: Read: *"A visual intro to gradient descent"* + play with a loss-landscape visualizer (search "playground.tensorflow.org" — interactive, no install)
-- Thu: scikit-learn `MLPClassifier` — train a tiny neural net on a dataset you already used (Titanic or digits)
-- Fri (hands-on): Compare your NN vs your earlier Random Forest — same metrics, discuss why/when NNs win
-- Weekend (optional): Write your "teach-back" note #1: ML in 10 bullet points, in your own words
+- [ ] Mon: 3Blue1Brown ep.1 — "But what is a neural network?"
+- [ ] Tue: 3Blue1Brown ep.2-3 — gradient descent & backpropagation (intuition only, you have the calculus already)
+- [ ] Wed: Read: *"A visual intro to gradient descent"* + play with a loss-landscape visualizer (search "playground.tensorflow.org" — interactive, no install)
+- [ ] Thu: scikit-learn `MLPClassifier` — train a tiny neural net on a dataset you already used (Titanic or digits)
+- [ ] Fri (hands-on): Compare your NN vs your earlier Random Forest — same metrics, discuss why/when NNs win
+- [ ] Weekend (optional): Write your "teach-back" note #1: ML in 10 bullet points, in your own words
 
 ### Week 4 — Consolidation + mini-project
-- Mon-Thu (45min each): Pick ONE Kaggle "Getting Started" competition relevant to you (e.g. House Prices or a text one) and iterate: feature engineering, model comparison, submission
-- Fri: Finalize submission, push full notebook to your GitHub repo with a README
-- Weekend (optional): **Checkpoint quiz** — ask ChatGPT: *"Quiz me on ML fundamentals: overfitting, bias-variance, cross-validation, regularization, key metrics"* — redo any concept you fumble
+- [ ] Mon-Thu (45min each): Pick ONE Kaggle "Getting Started" competition relevant to you (e.g. House Prices or a text one) and iterate: feature engineering, model comparison, submission
+- [ ] Fri: Finalize submission, push full notebook to your GitHub repo with a README
+- [ ] Weekend (optional): **Checkpoint quiz** — ask ChatGPT: *"Quiz me on ML fundamentals: overfitting, bias-variance, cross-validation, regularization, key metrics"* — redo any concept you fumble
 
-✅ **End of Phase 1 checklist:** I can explain overfitting, I can build & evaluate a scikit-learn model pipeline, I have 1 Kaggle submission in my portfolio.
+✅**End of Phase 1 checklist:** [ ] I can explain overfitting, I can build & evaluate a scikit-learn model pipeline, I have 1 Kaggle submission in my portfolio.
 
 ---
 
@@ -100,35 +100,35 @@
 - PyTorch *60-minute blitz* tutorial (pytorch.org/tutorials)
 
 ### Week 5 — Deep learning framework basics
-- Mon-Tue: PyTorch 60-minute blitz (tensors, autograd) — just enough to read others' code comfortably
-- Wed: Hugging Face NLP Course ch.1 (what is NLP, pipelines)
-- Thu: Hugging Face NLP Course ch.2 (tokenizers, models, "Behind the pipeline")
-- Fri (hands-on): Run 3 different `pipeline()` tasks in a Colab notebook (sentiment analysis, summarization, translation) on your own text
-- Weekend (optional): Try it on something real — e.g. summarize a case study or lecture PDF
+- [ ] Mon-Tue: PyTorch 60-minute blitz (tensors, autograd) — just enough to read others' code comfortably
+- [ ] Wed: Hugging Face NLP Course ch.1 (what is NLP, pipelines)
+- [ ] Thu: Hugging Face NLP Course ch.2 (tokenizers, models, "Behind the pipeline")
+- [ ] Fri (hands-on): Run 3 different `pipeline()` tasks in a Colab notebook (sentiment analysis, summarization, translation) on your own text
+- [ ] Weekend (optional): Try it on something real — e.g. summarize a case study or lecture PDF
 
 ### Week 6 — Embeddings & representation
-- Mon: What are embeddings — intuition (words/sentences → vectors), watch a short explainer video (search "vector embeddings explained simply")
-- Tue: Hugging Face NLP Course ch.3 (fine-tuning a pretrained model, part 1)
-- Wed: HF NLP Course ch.3 (part 2 — full training loop)
-- Thu: Try `sentence-transformers` library — embed sentences, compute cosine similarity between business/finance sentences
-- Fri (hands-on): Mini demo notebook: given 5 customer reviews, embed them and cluster/find the most similar pair
-- Weekend (optional): Teach-back note #2: "Embeddings in plain English, with my own example"
+- [ ] Mon: What are embeddings — intuition (words/sentences → vectors), watch a short explainer video (search "vector embeddings explained simply")
+- [ ] Tue: Hugging Face NLP Course ch.3 (fine-tuning a pretrained model, part 1)
+- [ ] Wed: HF NLP Course ch.3 (part 2 — full training loop)
+- [ ] Thu: Try `sentence-transformers` library — embed sentences, compute cosine similarity between business/finance sentences
+- [ ] Fri (hands-on): Mini demo notebook: given 5 customer reviews, embed them and cluster/find the most similar pair
+- [ ] Weekend (optional): Teach-back note #2: "Embeddings in plain English, with my own example"
 
 ### Week 7 — Attention & Transformers (the "aha" week)
-- Mon: *The Illustrated Transformer* (read slowly, it's the single best hour you'll spend this program)
-- Tue: *The Illustrated GPT-2* (how decoder-only models generate text)
-- Wed: Watch Karpathy's "State of GPT" talk (YouTube, ~45min, watch in 2 sittings) — how models are actually trained (pretrain → SFT → RLHF)
-- Thu: Re-read your notes, ask Claude/ChatGPT: *"I just learned about self-attention — quiz me and poke holes in my understanding"*
-- Fri (hands-on): Diagram (by hand or in Mermaid) the flow: tokens → embeddings → attention → output. Save it to your repo.
-- Weekend (optional): No new content — consolidate, re-watch anything fuzzy
+- [ ] Mon: *The Illustrated Transformer* (read slowly, it's the single best hour you'll spend this program)
+- [ ] Tue: *The Illustrated GPT-2* (how decoder-only models generate text)
+- [ ] Wed: Watch Karpathy's "State of GPT" talk (YouTube, ~45min, watch in 2 sittings) — how models are actually trained (pretrain → SFT → RLHF)
+- [ ] Thu: Re-read your notes, ask Claude/ChatGPT: *"I just learned about self-attention — quiz me and poke holes in my understanding"*
+- [ ] Fri (hands-on): Diagram (by hand or in Mermaid) the flow: tokens → embeddings → attention → output. Save it to your repo.
+- [ ] Weekend (optional): No new content — consolidate, re-watch anything fuzzy
 
 ### Week 8 — Fine-tuning practice (mini-project)
-- Mon-Wed (45min each): HF NLP Course ch.4-5 (sharing models, datasets library) + prep a small custom dataset (e.g. labelled tweets/reviews, or synthesize one with ChatGPT)
-- Thu: Fine-tune **DistilBERT** on your dataset in Colab (free GPU) for a classification task (sentiment, topic, or spam/ham)
-- Fri (hands-on): Evaluate it, push the model card to Hugging Face Hub (free), write a short README
-- Weekend (optional): Teach-back note #3 + tidy up GitHub repo
+- [ ] Mon-Wed (45min each): HF NLP Course ch.4-5 (sharing models, datasets library) + prep a small custom dataset (e.g. labelled tweets/reviews, or synthesize one with ChatGPT)
+- [ ] Thu: Fine-tune **DistilBERT** on your dataset in Colab (free GPU) for a classification task (sentiment, topic, or spam/ham)
+- [ ] Fri (hands-on): Evaluate it, push the model card to Hugging Face Hub (free), write a short README
+- [ ] Weekend (optional): Teach-back note #3 + tidy up GitHub repo
 
-✅ **End of Phase 2 checklist:** I can explain attention/transformers at an intuitive level, I've fine-tuned and shared a real model.
+✅ **End of Phase 2 checklist:** [ ] I can explain attention/transformers at an intuitive level, I've fine-tuned and shared a real model.
 
 ---
 
@@ -144,38 +144,38 @@
 - Anthropic's prompt engineering docs (docs.anthropic.com)
 
 ### Week 9 — How LLMs really behave
-- Mon: Re-watch/skim Karpathy "State of GPT" notes — focus on instruction-tuning & RLHF this time
-- Tue: Read OpenAI & Anthropic model docs on capabilities/limits (context windows, hallucination, knowledge cutoff)
-- Wed: Experiment manually in ChatGPT/Claude web UI: test same prompt 5 ways, observe variance
-- Thu: Read: "temperature, top-p, system prompts" explainer (search official OpenAI API docs — "Chat Completions guide")
-- Fri (hands-on): Write your first Python script calling the OpenAI/Anthropic API (`pip install openai`), print a response
-- Weekend (optional): Try the same call with different temperature/system prompt settings, log outputs
+- [ ] Mon: Re-watch/skim Karpathy "State of GPT" notes — focus on instruction-tuning & RLHF this time
+- [ ] Tue: Read OpenAI & Anthropic model docs on capabilities/limits (context windows, hallucination, knowledge cutoff)
+- [ ] Wed: Experiment manually in ChatGPT/Claude web UI: test same prompt 5 ways, observe variance
+- [ ] Thu: Read: "temperature, top-p, system prompts" explainer (search official OpenAI API docs — "Chat Completions guide")
+- [ ] Fri (hands-on): Write your first Python script calling the OpenAI/Anthropic API (`pip install openai`), print a response
+- [ ] Weekend (optional): Try the same call with different temperature/system prompt settings, log outputs
 
 ### Week 10 — Prompt engineering techniques
-- Mon: Prompting Guide — zero-shot, few-shot, basic techniques
-- Tue: Prompting Guide — chain-of-thought, self-consistency
-- Wed: DeepLearning.AI "ChatGPT Prompt Engineering for Developers" part 1
-- Thu: Same course, part 2 (summarizing, inferring, transforming text)
-- Fri (hands-on): Build a reusable **prompt template library** (Python dict/functions) for 5 tasks you do often (summarize, draft email, extract data, classify, explain)
-- Weekend (optional): Apply it to something real this week (e.g. summarize a long reading for one of your courses)
+- [ ] Mon: Prompting Guide — zero-shot, few-shot, basic techniques
+- [ ] Tue: Prompting Guide — chain-of-thought, self-consistency
+- [ ] Wed: DeepLearning.AI "ChatGPT Prompt Engineering for Developers" part 1
+- [ ] Thu: Same course, part 2 (summarizing, inferring, transforming text)
+- [ ] Fri (hands-on): Build a reusable **prompt template library** (Python dict/functions) for 5 tasks you do often (summarize, draft email, extract data, classify, explain)
+- [ ] Weekend (optional): Apply it to something real this week (e.g. summarize a long reading for one of your courses)
 
 ### Week 11 — Structured outputs & API mastery
-- Mon: Structured outputs / JSON mode / function calling concept (OpenAI docs)
-- Tue: OpenAI Cookbook — pick 2 recipes to run yourself (e.g. "How to format inputs to ChatGPT models", "Function calling")
-- Wed: Build a script that extracts structured data (JSON) from messy text (e.g. parse unstructured meeting notes into {attendees, decisions, action_items})
-- Thu: Error handling, retries, cost/token awareness (`tiktoken` to count tokens before calling)
-- Fri (hands-on): Package the above into a small reusable Python module with proper error handling
-- Weekend (optional): Teach-back note #4: "5 prompting tricks I now use daily"
+- [ ] Mon: Structured outputs / JSON mode / function calling concept (OpenAI docs)
+- [ ] Tue: OpenAI Cookbook — pick 2 recipes to run yourself (e.g. "How to format inputs to ChatGPT models", "Function calling")
+- [ ] Wed: Build a script that extracts structured data (JSON) from messy text (e.g. parse unstructured meeting notes into {attendees, decisions, action_items})
+- [ ] Thu: Error handling, retries, cost/token awareness (`tiktoken` to count tokens before calling)
+- [ ] Fri (hands-on): Package the above into a small reusable Python module with proper error handling
+- [ ] Weekend (optional): Teach-back note #4: "5 prompting tricks I now use daily"
 
 ### Week 12 — Mini-project: LLM-powered automation tool
-- Mon-Thu (45min each): Build a CLI/script that solves a **real recurring task of yours** — options:
-  - Extend your existing Python/VBA automation app with a natural-language interface (e.g. "summarize this Excel sheet in English")
-  - A PDF/lecture-notes summarizer + flashcard generator (useful for your own courses!)
-  - A job-application assistant: tailor a CV bullet list / draft a cover letter from a job description + your CV
-- Fri: Polish, add a README, push to GitHub
-- Weekend (optional): Use the tool for real on an actual task you have this week
+- [ ] Mon-Thu (45min each): Build a CLI/script that solves a **real recurring task of yours** — options:
+  - [ ] Extend your existing Python/VBA automation app with a natural-language interface (e.g. "summarize this Excel sheet in English")
+  - [ ] A PDF/lecture-notes summarizer + flashcard generator (useful for your own courses!)
+  - [ ] A job-application assistant: tailor a CV bullet list / draft a cover letter from a job description + your CV
+- [ ] Fri: Polish, add a README, push to GitHub
+- [ ] Weekend (optional): Use the tool for real on an actual task you have this week
 
-✅ **End of Phase 3 checklist:** I can call LLM APIs confidently, write reliable prompts, extract structured data, and I have one real working automation tool.
+✅ **End of Phase 3 checklist:** [ ] I can call LLM APIs confidently, write reliable prompts, extract structured data, and I have one real working automation tool.
 
 ---
 
@@ -190,38 +190,38 @@
 - Streamlit docs (docs.streamlit.io) — fastest way to build an AI web UI in Python
 
 ### Week 13 — Vector search fundamentals
-- Mon: Recap embeddings (you've seen this in Wk6) + concept of vector similarity search / nearest neighbors
-- Tue: Read intro to vector databases — why/when RAG beats "stuff everything in the prompt" or fine-tuning
-- Wed: Set up **Chroma** locally, embed and store 10 sample documents
-- Thu: Query it, inspect what gets retrieved vs not — try to break it with ambiguous queries
-- Fri (hands-on): Script: given a folder of .txt files, embed & store them all in Chroma
-- Weekend (optional): Try it on your own lecture notes/readings folder
+- [ ] Mon: Recap embeddings (you've seen this in Wk6) + concept of vector similarity search / nearest neighbors
+- [ ] Tue: Read intro to vector databases — why/when RAG beats "stuff everything in the prompt" or fine-tuning
+- [ ] Wed: Set up **Chroma** locally, embed and store 10 sample documents
+- [ ] Thu: Query it, inspect what gets retrieved vs not — try to break it with ambiguous queries
+- [ ] Fri (hands-on): Script: given a folder of .txt files, embed & store them all in Chroma
+- [ ] Weekend (optional): Try it on your own lecture notes/readings folder
 
 ### Week 14 — RAG pipeline
-- Mon: DeepLearning.AI "LangChain Chat with Your Data" part 1
-- Tue: Same course, part 2 — retrieval strategies, chunking choices
-- Wed: Build a basic RAG chain: retrieve chunks → stuff into prompt → LLM answers with citations
-- Thu: Experiment with chunk size/overlap, observe answer quality changes
-- Fri (hands-on): Add source citation to your RAG answers (show which chunk/doc was used)
-- Weekend (optional): Teach-back note #5: "How RAG actually works, explained simply"
+- [ ] Mon: DeepLearning.AI "LangChain Chat with Your Data" part 1
+- [ ] Tue: Same course, part 2 — retrieval strategies, chunking choices
+- [ ] Wed: Build a basic RAG chain: retrieve chunks → stuff into prompt → LLM answers with citations
+- [ ] Thu: Experiment with chunk size/overlap, observe answer quality changes
+- [ ] Fri (hands-on): Add source citation to your RAG answers (show which chunk/doc was used)
+- [ ] Weekend (optional): Teach-back note #5: "How RAG actually works, explained simply"
 
 ### Week 15 — Build the app
-- Mon: Streamlit basics (input box, chat UI components) — docs + a 20-min tutorial
-- Tue: Wire your RAG pipeline into a Streamlit chat interface
-- Wed: Add file upload (let user drop their own PDFs in)
-- Thu: Polish UX: loading states, error handling, "no answer found" cases
-- Fri (hands-on): End-to-end test with a real document set (e.g. your MSc course readings or a company's annual report)
-- Weekend (optional): Ask a friend/classmate to try it and give feedback
+- [ ] Mon: Streamlit basics (input box, chat UI components) — docs + a 20-min tutorial
+- [ ] Tue: Wire your RAG pipeline into a Streamlit chat interface
+- [ ] Wed: Add file upload (let user drop their own PDFs in)
+- [ ] Thu: Polish UX: loading states, error handling, "no answer found" cases
+- [ ] Fri (hands-on): End-to-end test with a real document set (e.g. your MSc course readings or a company's annual report)
+- [ ] Weekend (optional): Ask a friend/classmate to try it and give feedback
 
 ### Week 16 — Evaluation & deployment
-- Mon: DeepLearning.AI "Building and Evaluating Advanced RAG" — evaluation metrics for RAG (faithfulness, relevance)
-- Tue: Add a few hand-written test questions + expected answers, check your pipeline against them
-- Wed: Deploy to **Hugging Face Spaces** (free hosting for Streamlit/Gradio apps)
-- Thu: Fix deployment issues, add a clean README + screenshot
-- Fri (hands-on): Share the live link, write a short LinkedIn/portfolio post about it
-- Weekend (optional): Rest, or polish UI further
+- [ ] Mon: DeepLearning.AI "Building and Evaluating Advanced RAG" — evaluation metrics for RAG (faithfulness, relevance)
+- [ ] Tue: Add a few hand-written test questions + expected answers, check your pipeline against them
+- [ ] Wed: Deploy to **Hugging Face Spaces** (free hosting for Streamlit/Gradio apps)
+- [ ] Thu: Fix deployment issues, add a clean README + screenshot
+- [ ] Fri (hands-on): Share the live link, write a short LinkedIn/portfolio post about it
+- [ ] Weekend (optional): Rest, or polish UI further
 
-✅ **End of Phase 4 checklist:** I have a deployed, working "chat with your documents" app I can demo live.
+✅ **End of Phase 4 checklist:** [ ] I have a deployed, working "chat with your documents" app I can demo live.
 
 ---
 
@@ -236,30 +236,30 @@
 - n8n (n8n.io, free self-hosted) or Zapier AI actions — for no-code/low-code AI automation
 
 ### Week 17 — Tool use & function calling
-- Mon: Concept: function/tool calling — letting the LLM "decide" to call a Python function (e.g. a calculator, a web search)
-- Tue: OpenAI/Anthropic docs on tool use — implement one tool call yourself (e.g. a calculator or a weather/stock-price lookup function)
-- Wed: Hugging Face Agents Course unit 1
-- Thu: HF Agents Course unit 2 (ReAct pattern — reason + act loop)
-- Fri (hands-on): Build an agent with 2 tools (e.g. web search + calculator) that answers a multi-step question
-- Weekend (optional): Stress-test it with tricky multi-hop questions
+- [ ] Mon: Concept: function/tool calling — letting the LLM "decide" to call a Python function (e.g. a calculator, a web search)
+- [ ] Tue: OpenAI/Anthropic docs on tool use — implement one tool call yourself (e.g. a calculator or a weather/stock-price lookup function)
+- [ ] Wed: Hugging Face Agents Course unit 1
+- [ ] Thu: HF Agents Course unit 2 (ReAct pattern — reason + act loop)
+- [ ] Fri (hands-on): Build an agent with 2 tools (e.g. web search + calculator) that answers a multi-step question
+- [ ] Weekend (optional): Stress-test it with tricky multi-hop questions
 
 ### Week 18 — Multi-step agent project
-- Mon-Thu (45min each): Build a **research/automation agent** for a real use case, e.g.:
-  - A "market/competitor research assistant": given a company name, search, summarize, output a mini brief
-  - A "meeting-prep agent": given a company + role, gather public info and draft talking points (useful for your own interviews!)
-  - Extend Week 12's automation tool into an agent that decides *which* action to take
-- Fri: Test, debug, refine the loop (agents fail a lot — this is normal, debugging IS the skill)
-- Weekend (optional): Try it on a real upcoming interview/case study prep
+- [ ] Mon-Thu (45min each): Build a **research/automation agent** for a real use case, e.g.:
+  - [ ] A "market/competitor research assistant": given a company name, search, summarize, output a mini brief
+  - [ ] A "meeting-prep agent": given a company + role, gather public info and draft talking points (useful for your own interviews!)
+  - [ ] Extend Week 12's automation tool into an agent that decides *which* action to take
+- [ ] Fri: Test, debug, refine the loop (agents fail a lot — this is normal, debugging IS the skill)
+- [ ] Weekend (optional): Try it on a real upcoming interview/case study prep
 
 ### Week 19 — Reliability, guardrails & no-code automation
-- Mon: Read about common agent failure modes (infinite loops, hallucinated tool calls) and mitigation (max steps, validation)
-- Tue: Add basic guardrails/logging to your agent
-- Wed: Explore **n8n** or Zapier AI — build one simple no-code automation (e.g. "new email → AI summary → Notion/Slack")
-- Thu: Compare: when would you use code (LangChain) vs no-code (n8n/Zapier) in a real business context? Write 5 lines.
-- Fri (hands-on): Finalize agent project, push to GitHub with README + demo GIF/video
-- Weekend (optional): Teach-back note #6: "What I'd actually use agents for in a business"
+- [ ] Mon: Read about common agent failure modes (infinite loops, hallucinated tool calls) and mitigation (max steps, validation)
+- [ ] Tue: Add basic guardrails/logging to your agent
+- [ ] Wed: Explore **n8n** or Zapier AI — build one simple no-code automation (e.g. "new email → AI summary → Notion/Slack")
+- [ ] Thu: Compare: when would you use code (LangChain) vs no-code (n8n/Zapier) in a real business context? Write 5 lines.
+- [ ] Fri (hands-on): Finalize agent project, push to GitHub with README + demo GIF/video
+- [ ] Weekend (optional): Teach-back note #6: "What I'd actually use agents for in a business"
 
-✅ **End of Phase 5 checklist:** I've built and debugged a working multi-step agent, and I understand code vs no-code automation trade-offs.
+✅ **End of Phase 5 checklist:** [ ] I've built and debugged a working multi-step agent, and I understand code vs no-code automation trade-offs.
 
 ---
 
@@ -274,46 +274,46 @@
 - **Study Copilot**: a RAG + agent tool over all your MSc course materials (readings, slides) with quizzing and summarization
 
 ### Week 20 — Define & design
-- Mon: Pick your capstone, write a 1-page spec (problem, user, core features, "done" criteria) — treat this like a mini business case (your strategy training shines here)
-- Tue: Sketch architecture: data flow (frontend → backend → LLM/RAG/agent → response)
-- Wed: Set up repo structure, choose stack (FastAPI backend + Streamlit, or FastAPI + simple HTML/CSS/JS frontend using your existing web skills)
-- Thu: Build data layer (document ingestion / CV parsing / data loading depending on project)
-- Fri (hands-on): Have a skeleton running end-to-end with dummy responses
-- Weekend (optional): Gather/prepare real sample data to use throughout
+- [ ] Mon: Pick your capstone, write a 1-page spec (problem, user, core features, "done" criteria) — treat this like a mini business case (your strategy training shines here)
+- [ ] Tue: Sketch architecture: data flow (frontend → backend → LLM/RAG/agent → response)
+- [ ] Wed: Set up repo structure, choose stack (FastAPI backend + Streamlit, or FastAPI + simple HTML/CSS/JS frontend using your existing web skills)
+- [ ] Thu: Build data layer (document ingestion / CV parsing / data loading depending on project)
+- [ ] Fri (hands-on): Have a skeleton running end-to-end with dummy responses
+- [ ] Weekend (optional): Gather/prepare real sample data to use throughout
 
 ### Week 21 — Backend build
-- Mon: FastAPI basics (routes, request/response models) — docs tutorial, 30 min
-- Tue: Wire your LLM/RAG/agent logic from Phases 3-5 into FastAPI endpoints
-- Wed: Add structured outputs, error handling, logging
-- Thu: Write 3-5 test cases, fix bugs
-- Fri (hands-on): Backend fully functional via API calls (test with `curl`/Postman/Python requests)
-- Weekend (optional): Buffer/catch-up
+- [ ] Mon: FastAPI basics (routes, request/response models) — docs tutorial, 30 min
+- [ ] Tue: Wire your LLM/RAG/agent logic from Phases 3-5 into FastAPI endpoints
+- [ ] Wed: Add structured outputs, error handling, logging
+- [ ] Thu: Write 3-5 test cases, fix bugs
+- [ ] Fri (hands-on): Backend fully functional via API calls (test with `curl`/Postman/Python requests)
+- [ ] Weekend (optional): Buffer/catch-up
 
 ### Week 22 — Frontend build
-- Mon: Choose Streamlit (fast) or HTML/CSS/JS (more control, leverages your existing skills) and scaffold the UI
-- Tue: Connect frontend to backend API
-- Wed: Build the core interaction loop (upload/input → processing state → result display)
-- Thu: Polish UX — this is often what makes a demo land well with recruiters/users
-- Fri (hands-on): Full end-to-end demo working locally
-- Weekend (optional): Get a friend to test it, collect feedback
+- [ ] Mon: Choose Streamlit (fast) or HTML/CSS/JS (more control, leverages your existing skills) and scaffold the UI
+- [ ] Tue: Connect frontend to backend API
+- [ ] Wed: Build the core interaction loop (upload/input → processing state → result display)
+- [ ] Thu: Polish UX — this is often what makes a demo land well with recruiters/users
+- [ ] Fri (hands-on): Full end-to-end demo working locally
+- [ ] Weekend (optional): Get a friend to test it, collect feedback
 
 ### Week 23 — Deployment & hardening
-- Mon: Choose deployment target: Hugging Face Spaces (easiest for Streamlit/Gradio), or Render/Vercel free tier (FastAPI + static frontend)
-- Tue: Deploy backend, fix environment/config issues
-- Wed: Deploy frontend, connect to live backend, test publicly
-- Thu: Add basic cost/rate-limit protection (cap tokens, handle API errors gracefully) — important if you share the link publicly
-- Fri (hands-on): Final working public demo link
-- Weekend (optional): Record a 2-min screen-capture demo video
+- [ ] Mon: Choose deployment target: Hugging Face Spaces (easiest for Streamlit/Gradio), or Render/Vercel free tier (FastAPI + static frontend)
+- [ ] Tue: Deploy backend, fix environment/config issues
+- [ ] Wed: Deploy frontend, connect to live backend, test publicly
+- [ ] Thu: Add basic cost/rate-limit protection (cap tokens, handle API errors gracefully) — important if you share the link publicly
+- [ ] Fri (hands-on): Final working public demo link
+- [ ] Weekend (optional): Record a 2-min screen-capture demo video
 
 ### Week 24 — Present, reflect, plan next steps
-- Mon: Write a proper README (problem, architecture diagram, tech stack, how to run, screenshots)
-- Tue: Write a LinkedIn/portfolio post: what you built, what you learned, link to demo + repo
-- Wed: Self-assessment: redo the Phase 1-5 checklists honestly, note any gaps
-- Thu: Ask ChatGPT/Claude for a mock technical interview on AI fundamentals — identify weak spots
-- Fri: Decide your next specialization track (see section 10 below)
-- Weekend: Celebrate — you've gone from fundamentals to a deployed AI product in 6 months of ~45min/day 🎉
+- [ ] Mon: Write a proper README (problem, architecture diagram, tech stack, how to run, screenshots)
+- [ ] Tue: Write a LinkedIn/portfolio post: what you built, what you learned, link to demo + repo
+- [ ] Wed: Self-assessment: redo the Phase 1-5 checklists honestly, note any gaps
+- [ ] Thu: Ask ChatGPT/Claude for a mock technical interview on AI fundamentals — identify weak spots
+- [ ] Fri: Decide your next specialization track (see section 10 below)
+- [ ] Weekend: Celebrate — you've gone from fundamentals to a deployed AI product in 6 months of ~45min/day 🎉
 
-✅ **End of Phase 6 checklist:** I have one deployed, documented, demo-able AI product that I can discuss confidently in interviews or show to a business stakeholder.
+✅ **End of Phase 6 checklist:** [ ] I have one deployed, documented, demo-able AI product that I can discuss confidently in interviews or show to a business stakeholder.
 
 ---
 
@@ -321,18 +321,18 @@
 
 > Entirely optional, never blocking. Read **Core** papers only during the phase listed (they directly explain the mechanism you're building that week — reading them *then* turns them from abstract into obvious). Read **Bonus** papers whenever curiosity strikes, purely for the historical/cultural picture of how the field got here. Skim with an LLM alongside you: paste a dense section and ask *"explain this paragraph simply, then tell me why it mattered historically."*
 
-| When | Paper | Tag | Why read it then |
-|---|---|---|---|
-| Day 0 / anytime | Turing, *"Computing Machinery and Intelligence"* (1950) | Bonus | The founding question of the whole field ("Can machines think?") — short, readable, no math |
-| Phase 1 (Wk 1-4) | McCarthy et al., *Dartmouth Summer Research Project proposal* (1956) | Bonus | Where the term "Artificial Intelligence" was coined — 2-page read, fun historical anchor |
-| Phase 2 (Wk 7) | Vaswani et al., *"Attention Is All You Need"* (2017) | **Core** | The Transformer paper — read right after *The Illustrated Transformer* in Wk 7, once the diagram already makes sense, so the equations click instead of intimidate |
-| Phase 2 (Wk 7-8) | Devlin et al., *"BERT: Pre-training of Deep Bidirectional Transformers"* (2018) | Bonus | You're fine-tuning a BERT-family model in Wk 8 — skim the abstract + intro to know what you're actually using |
-| Phase 3 (Wk 9) | Brown et al., *"Language Models are Few-Shot Learners"* (GPT-3, 2020) | **Core** | Explains *why* few-shot prompting (Wk 10) works at all — the paper that justified prompting as a technique |
-| Phase 3 (Wk 9-10) | Ouyang et al., *"Training language models to follow instructions with human feedback"* (InstructGPT/RLHF, 2022) | **Core** | Explains instruction-tuning & RLHF — the gap between "raw LLM" and "ChatGPT-like assistant" you're calling via API |
-| Phase 3 (Wk 10) | Wei et al., *"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"* (2022) | **Core** | Read right when you hit chain-of-thought in the Prompting Guide — primary source for a technique you'll use constantly |
-| Phase 4 (Wk 13-14) | Lewis et al., *"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"* (2020) | **Core** | The RAG paper itself — read while building your first retrieval pipeline, it's short and maps 1:1 to what you're coding |
-| Phase 5 (Wk 17-18) | Yao et al., *"ReAct: Synergizing Reasoning and Acting in Language Models"* (2022) | **Core** | The reasoning+acting loop you implement in your agent — read alongside the HF Agents Course unit on ReAct |
-| Phase 6 / anytime after | LeCun, Bengio & Hinton, *"Deep Learning"* (Nature review, 2015) | Bonus | A field-defining review by the "godfathers of deep learning" — good capstone-era culture read, ties the whole program together |
+| Done | When | Paper | Tag | Why read it then |
+|---|---|---|---|---|
+|  | Day 0 / anytime | Turing, *"Computing Machinery and Intelligence"* (1950) | Bonus | The founding question of the whole field ("Can machines think?") — short, readable, no math |
+|  | Phase 1 (Wk 1-4) | McCarthy et al., *Dartmouth Summer Research Project proposal* (1956) | Bonus | Where the term "Artificial Intelligence" was coined — 2-page read, fun historical anchor |
+|  | Phase 2 (Wk 7) | Vaswani et al., *"Attention Is All You Need"* (2017) | **Core** | The Transformer paper — read right after *The Illustrated Transformer* in Wk 7, once the diagram already makes sense, so the equations click instead of intimidate |
+|  | Phase 2 (Wk 7-8) | Devlin et al., *"BERT: Pre-training of Deep Bidirectional Transformers"* (2018) | Bonus | You're fine-tuning a BERT-family model in Wk 8 — skim the abstract + intro to know what you're actually using |
+|  | Phase 3 (Wk 9) | Brown et al., *"Language Models are Few-Shot Learners"* (GPT-3, 2020) | **Core** | Explains *why* few-shot prompting (Wk 10) works at all — the paper that justified prompting as a technique |
+|  | Phase 3 (Wk 9-10) | Ouyang et al., *"Training language models to follow instructions with human feedback"* (InstructGPT/RLHF, 2022) | **Core** | Explains instruction-tuning & RLHF — the gap between "raw LLM" and "ChatGPT-like assistant" you're calling via API |
+|  | Phase 3 (Wk 10) | Wei et al., *"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"* (2022) | **Core** | Read right when you hit chain-of-thought in the Prompting Guide — primary source for a technique you'll use constantly |
+|  | Phase 4 (Wk 13-14) | Lewis et al., *"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"* (2020) | **Core** | The RAG paper itself — read while building your first retrieval pipeline, it's short and maps 1:1 to what you're coding |
+|  | Phase 5 (Wk 17-18) | Yao et al., *"ReAct: Synergizing Reasoning and Acting in Language Models"* (2022) | **Core** | The reasoning+acting loop you implement in your agent — read alongside the HF Agents Course unit on ReAct |
+|  | Phase 6 / anytime after | LeCun, Bengio & Hinton, *"Deep Learning"* (Nature review, 2015) | Bonus | A field-defining review by the "godfathers of deep learning" — good capstone-era culture read, ties the whole program together |
 
 **How to find them:** all are free — search the title on **arxiv.org** or **Google Scholar**; most have an accompanying blog explainer (search *"\[paper name\] explained"*) if you want a gentler on-ramp before the PDF.
 

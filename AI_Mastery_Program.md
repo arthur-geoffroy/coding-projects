@@ -65,10 +65,10 @@
 - [ ] Weekend (optional): Explore the dataset yourself, try improving your score
 
 ### Week 2 — Supervised learning, deeper
-- [ ] Mon: Regression vs classification, metrics (MSE, accuracy, precision/recall, ROC-AUC) — Google Crash Course modules
+- [x] Mon: Regression vs classification, metrics (MSE, accuracy, precision/recall, ROC-AUC) — Google Crash Course modules
 - [ ] Tue: scikit-learn in practice: `train_test_split`, `Pipeline`, `cross_val_score`
-- [ ] Wed: Kaggle "Intermediate Machine Learning" ch.1-3 (missing values, categorical variables)
-- [ ] Thu: Kaggle "Intermediate Machine Learning" ch.4-6 (pipelines, cross-validation, XGBoost)
+- [x] Wed: Kaggle "Intermediate Machine Learning" ch.1-3 (missing values, categorical variables)
+- [x] Thu: Kaggle "Intermediate Machine Learning" ch.4-6 (pipelines, cross-validation, XGBoost)
 - [ ] Fri (hands-on): Join the **Titanic** competition (kaggle.com/competitions/titanic), build your own pipeline end-to-end
 - [ ] Weekend (optional): Try XGBoost, compare to your first model, write 5 lines on what changed your score
 

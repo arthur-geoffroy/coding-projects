@@ -73,9 +73,9 @@
 - [ ] Weekend (optional): Try XGBoost, compare to your first model, write 5 lines on what changed your score
 
 ### Week 3 — From ML to Neural Networks (intuition)
-- [ ] Mon: 3Blue1Brown ep.1 — "But what is a neural network?"
-- [ ] Tue: 3Blue1Brown ep.2-3 — gradient descent & backpropagation (intuition only, you have the calculus already)
-- [ ] Wed: Read: *"A visual intro to gradient descent"* + play with a loss-landscape visualizer (search "playground.tensorflow.org" — interactive, no install)
+- [x] Mon: 3Blue1Brown ep.1 — "But what is a neural network?"
+- [x] Tue: 3Blue1Brown ep.2-3 — gradient descent & backpropagation (intuition only, you have the calculus already)
+- [x] Wed: Read: *"A visual intro to gradient descent"* + play with a loss-landscape visualizer (search "playground.tensorflow.org" — interactive, no install)
 - [ ] Thu: scikit-learn `MLPClassifier` — train a tiny neural net on a dataset you already used (Titanic or digits)
 - [ ] Fri (hands-on): Compare your NN vs your earlier Random Forest — same metrics, discuss why/when NNs win
 - [ ] Weekend (optional): Write your "teach-back" note #1: ML in 10 bullet points, in your own words
@@ -100,8 +100,8 @@
 - PyTorch *60-minute blitz* tutorial (pytorch.org/tutorials)
 
 ### Week 5 — Deep learning framework basics
-- [ ] Mon-Tue: PyTorch 60-minute blitz (tensors, autograd) — just enough to read others' code comfortably
-- [ ] Wed: Hugging Face NLP Course ch.1 (what is NLP, pipelines)
+- [x] Mon-Tue: PyTorch 60-minute blitz (tensors, autograd) — just enough to read others' code comfortably
+- [x] Wed: Hugging Face NLP Course ch.1 (what is NLP, pipelines)
 - [ ] Thu: Hugging Face NLP Course ch.2 (tokenizers, models, "Behind the pipeline")
 - [ ] Fri (hands-on): Run 3 different `pipeline()` tasks in a Colab notebook (sentiment analysis, summarization, translation) on your own text
 - [ ] Weekend (optional): Try it on something real — e.g. summarize a case study or lecture PDF
